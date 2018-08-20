@@ -1,0 +1,71 @@
+.headerStyle {
+    background-color: #00a3ff;
+}
+
+.bodyStyle{
+    background-color: #f3f6fa;
+}
+
+.redditLogo{
+    margin: 10px;
+    font-size:170%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.userName{
+    margin: 0px 20px;
+    font-size:140%;
+    color: #00a3ff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 0;
+}
+
+.postText{
+    margin: 5px 20px;
+    font-size:150%;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.stats{
+    margin: 0px 20px;
+    font-size:100%;
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.statItem{
+    margin: 4px 10px 20px 20px;
+}
+
+.searchBar{
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.profilePic{
+    margin:15px;
+    height: 90px;
+    width: 90px;
+}
+
+.messageClip{
+    position: relative;
+    width: 15px;
+    clip: rect(0px,15px,15px,0px);
+}
+
+.heartClip{
+    position: relative;
+    width: 15px;
+    clip: rect(5px,20px,16px,15px);
+}
+
+.postItem:hover{
+    background-color: whitesmoke;
+}
