@@ -57,7 +57,7 @@ class ModalExample extends React.Component {
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalHeader toggle={this.toggle}>{this.props.postData[1]}</ModalHeader>
                     <ModalBody>
-                        <Iframe url={this.props.postData[6]}></Iframe>
+                        <Iframe height='100%' width='100%' url={this.props.postData[6]}></Iframe>
                     </ModalBody>
                     <ModalFooter>
                         <Button color="secondary" onClick={this.toggle}>Salir</Button>
